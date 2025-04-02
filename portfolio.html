@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio | Allan Mark Cijil J. Cabangon</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!---top navigation bar --->
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home" class="nav-links">Home</a></li>
+          <li><a href="#about" class="nav-links">About</a></li>
+          <li><a href="#project" class="nav-links">Projects</a></li>
+          <li><a href="#contact" class="nav-links">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <button class="menu-btn" onclick="toggleSidebar()">
+      <i class="fa fa-bars"></i>
+    </button>
+
+    <div id="sidebar" class="sidebar">
+      <button class="menu-btn close-btn" onclick="toggleSidebar()">
+        <i class="fa fa-bars"></i>
+      </button>
+      <a href="#home"><i>Home</i></a>
+      <a href="#about"><i>About</i></a>
+      <a href="#project"><i>Projects</i></a>
+      <a href="#contact"><i>Contacts</i></a>
+    </div>
+
+    <script src="navbar.js"></script>
+
+    <main>
+      <section id="home">
+        <h1>Allan Mark Cijil J. Cabangon</h1>
+        <h2>Web Developer | UI/UX Designer</h2>
+        <p>
+          A proactive and skilled student programmer with experience in web
+          development and IT support, along with knowledge of cloud platforms
+          such as AWS and Azure. Eager to expand expertise, embrace new
+          technologies, and thrive in a dynamic professional environment through
+          this work opportunity.
+        </p>
+        <a href="assets/resume.pdf" download="Your_Resume.pdf">
+          <button class="resume-btn">View Full Resume</button>
+        </a>
+        <!-- Social Media Links -->
+        <div class="social-links">
+          <a href="https://www.facebook.com/allan.cabangon.05" target="_blank">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/733/733547.png"
+              alt="Facebook"
+            />
+          </a>
+          <a href="https://www.instagram.com/cabangonallan/" target="_blank">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/1409/1409946.png"
+              alt="Instagram"
+            />
+          </a>
+          <a href="https://github.com/CabangonAllan" target="_blank">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/733/733553.png"
+              alt="GitHub"
+            />
+          </a>
+        </div>
+      </section>
+      <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+          <img src="images/ppic.jpg" alt="Profile Picture" />
+          <div class="about-text">
+            <p>
+              I'm an IT graduate specializing in web development, skilled in
+              frontend and backend technologies. Willing to learn new
+              technologies and adapt to changes. Specializing in MERN Stack
+              (MongoDB, Express.js, React.js, and Node.js) and have experience
+              for about 6 months and still exploring and learning more about
+              this stack!.
+            </p>
+          </div>
+        </div>
+        <div class="personal-background">
+          <h2>Personal Background</h2>
+          <p><strong>Age:</strong> 22 years old</p>
+          <p><strong>Birthdate:</strong> May 05, 2003</p>
+          <p><strong>Phone Number:</strong> +63 9691682837</p>
+          <p><strong>Email:</strong> allanmarkcijil@gmail.com</p>
+          <p><strong>Address:</strong> Santol, Balagtas, Bulacan-Philippines</p>
+        </div>
+        <!-- Interests Section -->
+        <div class="interest">
+          <h1>Interests</h1>
+          <div class="interest-icons">
+            <div>
+              <img src="images/basketball.png" alt="Basketball" />
+              <h2>Basketball</h2>
+            </div>
+            <div>
+              <img src="images/reading.png" alt="Reading" />
+              <h2>Reading</h2>
+            </div>
+            <div>
+              <img src="images/gaming.png" alt="Games" />
+              <h2>Games</h2>
+            </div>
+            <div>
+              <img src="images/coding.png" alt="Coding" />
+              <h2>Coding</h2>
+            </div>
+            <div>
+              <img src="images/music.png" alt="Music" />
+              <h2>Music</h2>
+            </div>
+            <div>
+              <img src="images/cycling.png" alt="Cycling" />
+              <h2>Cycling</h2>
+            </div>
+            <div>
+              <img src="images/netflix.png" alt="Cycling" />
+              <h2>Movies</h2>
+            </div>
+          </div>
+        </div>
+        <!-- Skills Section -->
+        <div class="skills">
+          <h1>Skills</h1>
+          <div class="skill-icons">
+            <div>
+              <img src="images/html.png" alt="HTML" />
+              <h2>HTML</h2>
+            </div>
+            <div>
+              <img src="images/css.png" alt="CSS" />
+              <h2>CSS</h2>
+            </div>
+            <div>
+              <img src="images/js.png" alt="JavaScript" />
+              <h2>JavaScript</h2>
+            </div>
+            <div>
+              <img src="images/react.png" alt="React" />
+              <h2>React</h2>
+            </div>
+            <div>
+              <img src="images/nodejs.png" alt="Node.js" />
+              <h2>Node.js</h2>
+            </div>
+            <div>
+              <img src="images/mongodb.png" alt="MongoDB" />
+              <h2>MongoDB</h2>
+            </div>
+          </div>
+        </div>
+        <!-- Education Section -->
+        <div class="education">
+          <h1>Education</h1>
+          <ul class="education-list">
+            <li>
+              <img src="images/sti.png" alt="College Logo" />
+              <span>
+                <strong>College:</strong> <br />STI College Balagtas <br />
+                <strong>Course:</strong> <br />BS in Information Technology
+                <br />
+                <strong>Year:</strong> <br />2021-2025
+              </span>
+            </li>
+            <li>
+              <img src="images/iccdc.jpg" alt="HS Logo" />
+              <span
+                ><strong>Senior/High School:</strong> <br />Immaculate
+                Conception Child Development Center INC. <br />
+                <strong>Strand:</strong><br />
+                Science, Technology, Engineering, and Mathematics<br />
+                <strong>Year:</strong> <br />2014-2020
+              </span>
+            </li>
+            <li>
+              <img src="images/ses.jpg" alt="Elementary Logo" />
+              <span
+                ><strong>Elementary:</strong> <br />Santol Elementary School
+                <br />
+                <strong>Year:</strong> <br />2008-2014
+              </span>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="project">
+        <h2>Projects</h2>
+        <div class="project">
+          <h3>Project Name 1</h3>
+          <p>Description of the project...</p>
+          <a href="#">View More</a>
+        </div>
+        <div class="project">
+          <h3>Project Name 2</h3>
+          <p>Description of the project...</p>
+          <a href="#">View More</a>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message"></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+        <!-- Social Media Links -->
+        <div class="social-links">
+          <a href="https://www.facebook.com/allan.cabangon.05" target="_blank">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/733/733547.png"
+              alt="Facebook"
+            />
+          </a>
+          <a href="https://www.instagram.com/cabangonallan/" target="_blank">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/1409/1409946.png"
+              alt="Instagram"
+            />
+          </a>
+          <a href="https://github.com/CabangonAllan" target="_blank">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/733/733553.png"
+              alt="GitHub"
+            />
+          </a>
+        </div>
+      </section>
+    </main>
+  </body>
+  <footer>
+    <p>&copy; 2025 Allan Mark Cijil J. Cabangon. All Rights Reserved.</p>
+  </footer>
+</html>
